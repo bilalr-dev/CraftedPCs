@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftedPCs | The Ultimate Destination for Custom Gaming PCs</title>
+    
+    <!--Swiper cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!--font-awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    
+    <!--CSS файл-->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <!--розпочинається розділ заголовка-->
+    <!--header section starts-->
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"> <i class="fa-solid fa-gamepad"></i> CraftedPCs</a>
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="Пошук по сайту..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+        
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+
+            </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#all-pc">Всі ПК</a>
+                <a href="#gaming-pc">Ігровий ПК</a>
+                <a href="#pc-assembly">Збірка ПК</a>
+                <a href="#periphery">Периферія</a>
+                <a href="#feedback">Відгуки</a>
+                <a href="#faq">Питання - Відповідь</a>
+                <a href="">Контакт</a>
+            </nav>
+        </div>
+    </header>    
+    <!--завершується розділ заголовка-->
+    <!--header section ends-->
+
+    <!--розпочинається секція навігації знизу-->
+    <!--bottom navigation section starts-->
+    <nav class="bottom-navbar">
+        <a href="#all-pc">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-pc-display" viewBox="0 0 16 16">
+                <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5M1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2z"/>
+            </svg>
+        </a>
+
+        <a href="#gaming-pc">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-pc" viewBox="0 0 16 16">
+                <path d="M5 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1zm.5 14a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1m2 0a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1M5 1.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5M5.5 3h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1"/>
+            </svg>
+        </a>
+
+        <a href="#pc-assembly">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-wrench-adjustable" viewBox="0 0 16 16">
+                <path d="M16 4.5a4.5 4.5 0 0 1-1.703 3.526L13 5l2.959-1.11q.04.3.041.61"/>
+                <path d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.5 4.5 0 0 0 11.5 9m-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376M3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+            </svg>
+        </a>
+
+        <a href="#periphery">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-motherboard-fill" viewBox="0 0 16 16">
+                <path d="M5 7h3V4H5z"/>
+                <path d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2zm11 .5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0zm2 0a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0zM3.5 10a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zM4 4h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3a1 1 0 0 0-1 1m7 7.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 0-.5.5"/>
+            </svg>
+        </a>
+
+        <a href="#feedback">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chat-left-dots-fill" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+            </svg> 
+        </a>
+
+        <a href="#faq">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-patch-question-fill" viewBox="0 0 16 16">
+                <path d="M5.933.87a2.89 2.89 0 0 1 4.134 0l.622.638.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01zM7.002 11a1 1 0 1 0 2 0 1 1 0 0 0-2 0m1.602-2.027c.04-.534.198-.815.846-1.26.674-.475 1.05-1.09 1.05-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.7 1.7 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745.336 0 .504-.24.554-.627"/>
+            </svg>
+        </a>
+
+        <a href="#contact">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+            </svg>
+        </a>
+    </nav>
+    <!--завершується секція навігації знизу-->
+    <!--bottom navigation section ends-->
+
+    <!--розпочинається секція форми входу-->
+    <!--Login Form section starts-->
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"></div>
+        <form action="">
+            <h3>Логін</h3>
+            <span>Електронна пошта</span>
+            <input type="email" name="" class="box" placeholder="Електронна пошта" id="">
+            <span>Пароль</span>
+            <input type="password" name="" class="box" placeholder="Пароль" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Запам’ятати мене</label>
+            </div>
+            <input type="submit" value="Увійти" class="btn">
+            <p>Немає акаунту? <a href="#">Створіть акаунт тут.</a></p>
+            <p>Забули пароль? <a href="#">Натисніть тут.</a></p>
+        </form>
+    </div>
+    <!--завершується секція форми входу-->
+    <!--Login Form section ends-->
+
+    <!--Початок ділянки домашньої сторінки-->
+    <!--Home section starts-->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>знижка до 35%</h3>
+                <p>Отримайте неймовірну можливість зекономити до <b>35%</b> на ігрових ПК від <b>CraftedPCSs</b>!
+                     Відкрийте для себе найкращі пропозиції на потужні геймерські комп'ютери та виживайте у світі віртуальної реальності за вигідними цінами!
+                </p>
+                <a href="#" class="btn">Дізнатися зараз</a>
+            </div>
+
+            <div class="swiper pc-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="images/pc-1.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/pc-2.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/pc-3.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/pc-4.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/pc-5.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/pc-6.png" alt=""></a>
+                </div>
+                <img src="images/stand.png" class="stand" alt="background">
+            </div>
+        </div>
+    </section>
+    <!--Закінчення ділянки домашньої сторінки-->
+    <!--Home section ends-->
+
+    <!--Розділ іконок починається-->
+    <!--Icons section starts-->
+    <section class="icons-container">
+        <div class="icons">
+            <i class="fas fa-truck"></i> 
+            <div class="content">
+                <h3>Безкоштовна доставка</h3> 
+                <p>Замовлення від 5000 грн.</p>  
+            </div>
+        </div>  
+        
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>Безпечна оплата</h3> 
+                <p>Всі платежі безпечні на 100%.</p>  
+            </div>
+        </div>  
+
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>Легке повернення</h3> 
+                <p>Максимальний термін повернення 7 днів.</p>  
+            </div>
+        </div> 
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>24/7 підтримка</h3> 
+                <p>Зв'яжіться з нами в будь-який час.</p>  
+            </div>
+        </div> 
+    </section>
+    <!--Розділ іконок завершується-->
+    <!--Icons section ends-->
+
+    <!--Акційні товари починається-->
+    <!--Promo products section ends-->
+    <section class="featured" id="featured">
+        <h1 class="heading"> <span>Акційні пропозиції</span> </h1>
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images/product-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Z1 – INTEL i5 10400F</h3>
+                        <div class="price">23820 грн <span> 28469 грн</span></div>
+                        <a href="#" class="btn">Додайте до кошика</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images/product-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>LIGHNING – INTEL  i5 11400F</h3>
+                        <div class="price">29249 грн <span> 34099 грн</span></div>
+                        <a href="#" class="btn">Додайте до кошика</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images/product-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>AIRFACE – INTEL i5 12400F</h3>
+                        <div class="price">29249 грн <span> 33299 грн</span></div>
+                        <a href="#" class="btn">Додайте до кошика</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images/product-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>PRO MINI – INTEL i7 13700KF</h3>
+                        <div class="price">61209.45 грн <span> 76699 грн</span></div>
+                        <a href="#" class="btn">Додайте до кошика</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images/product-5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Y40 – INTEL i9-14900KF</h3>
+                        <div class="price">99889 грн <span> 122999 грн</span></div>
+                        <a href="#" class="btn">Додайте до кошика</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images/product-6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>BLADER – AMD RYZEN 5 5600G-VEGA 7</h3>
+                        <div class="price">12589 грн <span> 14749 грн</span></div>
+                        <a href="#" class="btn">Додайте до кошика</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images/product-7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>H7 – AMD RYZEN 9 7950X - RX 7900 XTX</h3>
+                        <div class="price">119989 грн <span> 123960 грн</span></div>
+                        <a href="#" class="btn">Додайте до кошика</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images/product-8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>IRON – INTEL i9 12900K</h3>
+                        <div class="price">97959.89 грн <span> 103041.89 грн</span></div>
+                        <a href="#" class="btn">Додайте до кошика</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+    </section>
+    <!--Акційні товари завершується-->
+    <!--Promo products section ends-->
+
+    <!--починається розділ розсилки-->
+    <!--Newsletter section starts-->
+    <section class="newsletter">
+        <form action="">
+            <h3>Підпишіться, щоб отримувати останні новини.</h3>
+            <input type="email" name="email" placeholder="Введіть вашу електронну адресу" class="box" id="" required>
+            <input type="submit" value="Підпишіться" class="btn">
+        </form>
+    </section>
+    <!--розділ розсилки закінчується-->
+    <!--Newsletter products section ends-->
+
+    <!--починається розділ Останні статті-->
+    <!--Latest Products section starts-->
+    <section class="arrivals" id="arrivals">
+        <h1 class="heading"> <span>Останні статті</span> </h1>
+        <div class="swiper arrivals-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/product-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Z1 – INTEL i5 10400F</h3>
+                        <div class="price">23820 грн <span> 28469 грн</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/product-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>LIGHNING – INTEL  i5 11400F</h3>
+                        <div class="price">29249 грн <span> 34099 грн</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/product-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>AIRFACE – INTEL i5 12400F</h3>
+                        <div class="price">12589 грн <span> 14749 грн</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/product-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>PRO MINI – INTEL i7 13700KF</h3>
+                        <div class="price">61209.45 грн <span> 76699 грн</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/product-5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Y40 – INTEL i9-14900KF</h3>
+                        <div class="price">29249 грн <span> 33299 грн</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="swiper arrivals-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/product-6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>BLADER – AMD RYZEN 5 5600G-VEGA 7</h3>
+                        <div class="price">23820 грн</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/product-7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>H7 – AMD RYZEN 9 7950X - RX 7900 XTX</h3>
+                        <div class="price">12589 грн <span> 14749 грн</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/product-8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>IRON – INTEL i9 12900K</h3>
+                        <div class="price">97959.89 грн <span> 103041.89 грн</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/product-9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>PRO – AMD RYZEN 7 5700X</h3>
+                        <div class="price">61209.45 грн <span> 76699 грн</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/product-10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>NORTH – AMD RYZEN 9 7900X3D</h3>
+                        <div class="price">123571 грн</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!--закінчується розділ Останні статті-->
+    <!--Latest Products section ends-->
+
+    <!--Починається розділ угод-->
+    <!--Deals section starts-->
+    <section class="deal">
+        <div class="content">
+            <h3>Сьогоднішня угода</h3>
+            <h1>Знижка До 45%</h1>
+            <p>ПК R5 5600G-VEGA 7 + Ігровий монітор + Пакет Gamer</p>
+            <a href="#" class="btn">Замовте зараз</a>
+        </div>
+
+        <div class="image">
+            <img src="/images/deal-1.png" alt="">
+        </div>
+    </section>
+    <!--закінчується розділ угод-->
+    <!--Deals section ends-->
+
+    <!--починається розділ периферії та компонентів-->
+    <!--Peripheries and Components section starts-->
+    <section class="components" id="components">
+        <h1 class="heading"> <span>Периферія та компоненти</span> </h1>
+        <div class="swiper components-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Logitech G502 Lightspeed Wireless</h3>
+                        <div class="price">3989 грн <span> 4629 грн</span></div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Logitech G733 Lightspeed (Lilas)</h3>
+                        <div class="price">5829 грн <span> 6987.90 грн</span></div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Веб-камера Logitech C920 Pro HD</h3>
+                        <div class="price">5829 грн <span> 6987.90 грн</span></div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Клавіатура Logitech G Pro</h3>
+                        <div class="price">4199 грн <span> 3806 грн</span></div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Мишка Meetion M915 Black</h3>
+                        <div class="price">539 грн <span> 939 грн</span></div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="swiper components-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Веб-камера Logitech BRIO 100 (Pink)</h3>
+                        <div class="price">1549 грн</div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Гарнітура Gamer Razer Kraken (Mercury Edition)</h3>
+                        <div class="price">2829 грн <span> 4629 грн</span></div>
+
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Процесор Intel Core i5-10400F (2,9 ГГц/4,3 ГГц)</h3>
+                        <div class="price">5439 грн <span> 6599 грн</span></div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Оперативна пам'ять G.Skill Trident Z Royal 16 Go (2x 8 Go) DDR4 3600 МГц</h3>
+                        <div class="price">8529 грн</div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>MSI GeForce RTX 4070 TI SUPER 16G</h3>
+                        <div class="price">33749 грн</div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="swiper components-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-11.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Материнська плата ASRock Z790 PG Lightning</h3>
+                        <div class="price">9999 грн <span> 11649 грн</span></div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-12.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Монітор ASUS 27" LED TUF VG279Q3A 180Hz</h3>
+                        <div class="price">10099 грн <span> 12429 грн</span></div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-13.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>SSD Lexar NM620 256GB NVMe M.2 PCIe Gen3</h3>
+                        <div class="price">1000 грн <span> 1129 грн</span></div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-14.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>MSI MAG 850W 80PLUS GOLD A850GL PCIE5</h3>
+                        <div class="price">6029 грн <span> 7189 грн</span></div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/component-15.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Монітор Samsung 27" LED LS27A800NMUXEN 4K</h3>
+                        <div class="price">17440 грн</div>
+
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!--закінчується розділ периферії та компонентів-->
+    <!--Peripheries and Components section ends-->
+
+    <!--розділ Огляд починається-->
+    <!--Reviews section starts-->
+    <section class="reviews" id="reviews">
+        <h1 class="heading"> <span>Відгуки наших клієнтів</span> </h1>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="images/person-1.png" alt="">
+                    <h3>Віктор</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut porttitor felis, vitae vehicula lorem.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/person-2.png" alt="">
+                    <h3>Вадим</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut porttitor felis, vitae vehicula lorem.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/person-3.png" alt="">
+                    <h3>Артем</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut porttitor felis, vitae vehicula lorem.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/person-4.png" alt="">
+                    <h3>Аня</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut porttitor felis, vitae vehicula lorem.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/person-5.png" alt="">
+                    <h3>Вікторія</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut porttitor felis, vitae vehicula lorem.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/person-6.png" alt="">
+                    <h3>Маркіян</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut porttitor felis, vitae vehicula lorem.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--розділ Контакт закінчується-->
+    <!--Reviews section ends-->
+
+    <!--розділ Контакт починається-->
+    <!--Contact section starts-->
+    <section class="contact">
+        <div class="content">
+            <h3>У вас є питання?</h3>
+            <h1>Зв'яжіться з нами зараз</h1>
+            <form action="">
+                <input type="text" name="name" placeholder="назва" class="box" id="contactform" required>
+                <input type="email" name="email" placeholder="Введіть вашу електронну адресу" class="box" id="" required>
+                <textarea rows="4" cols="50" name="message" class="box" form="contactform" placeholder="Повідомлення..." required></textarea>
+                <input type="submit" value="Надішліть повідомлення" class="btn">
+            </form>
+        </div>
+
+        <div class="image">
+            <img src="/images/contact.png" alt="">
+        </div>
+    </section>
+    <!--розділ Огляд закінчується-->
+    <!--Contact section ends-->
+
+
+    <!--Починається розділ нижнього колонтитула-->
+    <!--Footer section starts-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Наше розташування</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Київ </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Львів </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Дніпро </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Харків </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Запоріжжя </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Одеса </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Миколаїв </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Маріуполь </a>
+            </div>
+
+            <div class="box">
+                <h3>Швидка навігація</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> Головна </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Всі ПК </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Ігровий ПК </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Збірка ПК </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Периферія </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Відгуки </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Питання - Відповідь </a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Контакт </a>
+            </div>
+
+            <div class="box">
+                <h3>Контактна інформація</h3>
+                <a href="#"><i class="fab fa-telegram"></i> +380-6-123-456-789 </a>
+                <a href="#"><i class="fas fa-phone"></i> +380-7-111-222-333 </a>
+                <a href="#"><i class="fas fa-envelope"></i> contact@craftedpcs.ua </a>
+                <img src="images/worldmap.png" class="map" alt="map">
+            </div>
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-x-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-reddit"></a>
+        </div>
+
+        <div class="credit">&copy;Designed by <span>Bilal Rahaoui</span></div>
+    </section>
+    <!--Закінчується розділ нижнього колонтитула-->
+    <!--Footer section ends-->
+
+    <!--JavaScript файл-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

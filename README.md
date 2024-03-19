@@ -13,7 +13,7 @@ Welcome to CraftedPCs! This repository contains the front-end code for the home 
 - **Newsletter Subscription Component:** Allows users to subscribe to the newsletter for updates and promotions.
 ![Screenshot 2](https://github.com/bilalr-dev/CraftedPCs/assets/142100151/78e0ef63-7a2f-42c6-b8d3-f91793d0796f)
 
-- **Latest Articles Sliders:** Showcases the latest articles related to gaming and technology.
+- **Latest Products Sliders:** Showcases the latest products.
 - **Today's Offer Section:** Highlights the special offer available for the day.
 ![Screenshot 3](https://github.com/bilalr-dev/CraftedPCs/assets/142100151/3062eaa1-0987-45ba-88f9-30d41c57ff38)
 
